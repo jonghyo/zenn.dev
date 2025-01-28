@@ -55,9 +55,3 @@ rules:
     pattern: セグメント
   - expected: Leaf
     pattern: リーフ
-  - expected: ライブラリ
-    pattern: ライブラリー
-  - expected: ユーザ
-    pattern: ユーザー
-  - expected: サーバ
-    pattern: サーバー

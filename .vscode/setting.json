@@ -4,5 +4,16 @@
     "no-inline-html": false,
     "no-bare-urls": false
   },
-  "textlint.languages": ["mdx", "markdown", "plaintext", "html"]
+  "textlint.languages": [
+    "mdx",
+    "markdown",
+    "plaintext",
+    "html"
+  ],
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.configPath": ".prettierrc"
 }
