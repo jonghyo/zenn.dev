@@ -15,6 +15,9 @@ pre-commit:
     textlint:
       glob: '**/*.{md,mdx}'
       run: npx textlint --cache {staged_files}
+    markdownlint:
+      glob: '**/*.{md,mdx}'
+      run: npx markdownlint-cli2 {staged_files}
 commit-msg:
   parallel: true
   commands:
