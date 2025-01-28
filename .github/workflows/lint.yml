@@ -49,6 +49,10 @@ jobs:
           level: warning
           textlint_flags: '**/*.{md,mdx}'
 
+      # markdownlint
+      - name: Exec markdwonlint
+        run: 'npm run markdownlint'
+
       # キャッシュセーブ
       - name: Always Save Cache
         id: cache-save

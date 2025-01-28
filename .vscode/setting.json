@@ -1,0 +1,8 @@
+{
+  "markdownlint.config": {
+    "no-trailing-punctuation": false,
+    "no-inline-html": false,
+    "no-bare-urls": false
+  },
+  "textlint.languages": ["mdx", "markdown", "plaintext", "html"]
+}
