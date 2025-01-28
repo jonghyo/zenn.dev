@@ -1,0 +1,59 @@
+# This is a basic workflow to help you get started with Actions
+
+name: reviewdog
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  pull_request:
+    branches: [main]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  reviewdog-github-check:
+    name: reviewdog (github-check)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - name: Setup Node/npm
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # キャッシュリストア
+      - name: Restore cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          key: ${{ runner.os }}-cache
+          path: |
+            ~/.npm
+            .textlintcache
+
+      # 依存モジュールインストール
+      - name: Install node modules
+        if: ${{ steps.cache_dependency.outputs.cache-hit != 'true' }}
+        run: 'npm ci --no-audit --progress=false --silent'
+
+      # textlint
+      - name: Exec textlint-github-pr-check
+        uses: tsuyoshicho/action-textlint@v3
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review
+          level: warning
+          textlint_flags: '**/*.{md,mdx}'
+
+      # キャッシュセーブ
+      - name: Always Save Cache
+        id: cache-save
+        if: always() && steps.cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+          path: |
+            ~/.npm
+            .textlintcache
