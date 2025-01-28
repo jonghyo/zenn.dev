@@ -10,5 +10,5 @@
     "first-line-h1": false, //MD041 first-line-heading
     "no-duplicate-heading": false //MD024 no-duplicate-heading
   },
-  "ignores": [".git", "node_modules", "docs/intro.md"] // 無視するディレクトリ
+  "ignores": [".git", "node_modules"] // 無視するディレクトリ
 }
