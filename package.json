@@ -1,0 +1,44 @@
+{
+  "name": "zenn.dev",
+  "description": "https://zenn.dev/jonghyo",
+  "scripts": {
+    "start": "zenn preview",
+    "markdownlint": "markdownlint-cli2 \"**/*.{md,mdx}\"",
+    "markdownlint:fix": "markdownlint-cli2 --fix \"**/*.{md,mdx}\"",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write",
+    "lint:docs": "textlint --cache **/*.{md,mdx}",
+    "lint:docs:fix": "textlint --cache --fix **/*.{md,mdx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonghyo/zenn.dev.git"
+  },
+  "keywords": [
+    "zenn"
+  ],
+  "author": "jonghyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonghyo/zenn.dev/issues"
+  },
+  "homepage": "https://github.com/jonghyo/zenn.dev#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@secretlint/secretlint-rule-preset-recommend": "^9.0.0",
+    "lefthook": "^1.10.10",
+    "markdownlint-cli2": "^0.17.2",
+    "prettier": "^3.4.2",
+    "secretlint": "^9.0.0",
+    "textlint": "^14.4.2",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-plugin-mdx": "^1.0.1",
+    "textlint-rule-preset-bengo4": "^2.2.2",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-prh": "^6.0.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0",
+    "zenn-cli": "^0.1.158"
+  }
+}

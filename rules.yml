@@ -1,0 +1,63 @@
+version: 1
+rules:
+  - expected: Next.js
+    patterns:
+      - Nextjs
+      - nextjs
+      - NextJs
+      - NextJS
+      - nextJs
+      - nextJS
+  - expected: Client Component
+    pattern:
+      - クライアントコンポーネント
+      - クライアント　コンポーネント
+      - クライアント コンポーネント
+      - Client　Component
+      - ClientComponent
+  - expected: Server Component
+    pattern:
+      - サーバーコンポーネント
+      - サーバー　コンポーネント
+      - サーバー コンポーネント
+      - サーバコンポーネント
+      - サーバ　コンポーネント
+      - サーバ コンポーネント
+      - Server　Component
+      - ServerComponent
+  - expected: Context Provider
+    pattern: context providers
+  - expected: Server Actions
+    pattern:
+      - server actions
+      - Server actions
+      - Server　Actions
+      - ServerActins
+  - expected: App Router
+    pattern:
+      - アプリルーター
+      - アプリルータ
+      - appルータ
+      - Appルータ
+      - appルーター
+      - Appルーター
+  - expected: Pages Router
+    pattern:
+      - Pagesルータ
+      - ページルータ
+      - ページルーター
+      - Pagesルーター
+      - pagesルーター
+      - pagesルータ
+  - expected: ルート
+    pattern: Root
+  - expected: Segment
+    pattern: セグメント
+  - expected: Leaf
+    pattern: リーフ
+  - expected: ライブラリ
+    pattern: ライブラリー
+  - expected: ユーザ
+    pattern: ユーザー
+  - expected: サーバ
+    pattern: サーバー
