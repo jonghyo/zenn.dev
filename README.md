@@ -7,7 +7,7 @@ My zenn.dev articles is here.
 ## Zenn latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Zennの記事をGitHub上でカッチリ管理するおすすめ設定](https://zenn.dev/jonghyo/articles/zenn-github-repo)
+- [Zennの記事をGitHub連携でカッチリ管理するおすすめ設定](https://zenn.dev/jonghyo/articles/zenn-github-repo)
 <!-- BLOG-POST-LIST:END -->
 
 ## Local Development
