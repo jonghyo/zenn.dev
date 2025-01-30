@@ -4,6 +4,11 @@ My zenn.dev articles is here.
 
 <a href="https://zenn.dev/jonghyo" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/Zenn-3EA8FF.svg?&style=for-the-badge&logo=Zenn&logoColor=white" /></a>
 
+## Zenn latest posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ## Local Development
 
 ### Install dependencies
