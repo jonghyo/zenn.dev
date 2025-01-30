@@ -1,5 +1,5 @@
 ---
-title: 'Zennの記事をGitHub上でカッチリ管理するおすすめ設定'
+title: 'Zennの記事をGitHub連携でカッチリ管理するおすすめ設定'
 emoji: '🔐'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['zenn', 'git', 'github', 'githubactions', 'npm']
@@ -427,7 +427,7 @@ commit-msg:
 
 これで、Git hookで各種lintをかけられるようになりました。
 
-この例ではコミットメッセージがconventional commit formatに従ってないので、エラーになり`git commit`が抑止されています。
+この例では**コミットメッセージがconventional commit formatに従ってない**ので、エラーになり`git commit`が抑止されています。
 
 ![lefthook](/images/zenn-github-repo/lefthook.gif)
 
@@ -531,6 +531,6 @@ https://zenn.dev/yuta28/articles/blog-lint-ci-reviewdog
 
 最後までお読みいただきありがとうございました!
 
-Xでも技術ネタやデザインについてなどもツイートしているので、よかったらフォローしてもらえると嬉しいです😋
+Xでも技術ネタをポストしているので、よかったらフォローしてもらえると嬉しいです😋
 
 → [X@jonghyo\_](https://x.com/jonghyo_)
