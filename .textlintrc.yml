@@ -6,6 +6,7 @@ filters:
   allowlist:
     allow:
       - '-github'
+      - '誤解'
 rules:
   preset-smarthr:
     ja-no-mixed-period: false

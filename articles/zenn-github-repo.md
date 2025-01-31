@@ -26,7 +26,7 @@ https://github.com/jonghyo/zenn.dev
 - 記事の**内容や品質を楽に・カッチリチェック**したい!
 - **コミットメッセージ**もしっかり書いて、かっこいいリポジトリにしたい!
 - Zennの**記事をきれい**に管理したい!
-- **これからZennとGitHubの連携設定**を行う方
+- **これからZennとGitHubの連携設定**を行なう方
 
 ## TL;DR
 
@@ -284,7 +284,7 @@ npmコマンドにもmarkdownlint-cli2を追加します。
 
 :::message
 
-2025/1/31 追記
+2025/1/31追記
 
 動作の軽快な[dprint](https://dprint.dev/plugins/markdown/)がmarkdown対応しており、高速に動作するコードフォーマッタとしては適切かもです!
 
