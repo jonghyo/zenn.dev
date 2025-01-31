@@ -282,6 +282,14 @@ npmコマンドにもmarkdownlint-cli2を追加します。
 
 :::
 
+:::message
+
+2025/1/31 追記
+
+動作の軽快な[dprint](https://dprint.dev/plugins/markdown/)がmarkdown対応しており、高速に動作するコードフォーマッタとしては適切かもです!
+
+:::
+
 以下コマンドでインストールします。
 
 ```bash
