@@ -1,5 +1,5 @@
 ---
-title: 'Next.jsのMiddlewareはNode.js runtimeでも使えます!'
+title: 'Next.js MiddlewareはNode.js runtimeでも使える！【誤解を解消＆今後の展望】'
 emoji: '🙆'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['nextjs', 'typescript', 'javascript', 'nodejs']
@@ -7,7 +7,7 @@ published: true
 published_at: 2025-02-03 07:00
 ---
 
-## はじめに結論から
+## 結論から
 
 たまにEdge runtimeでしか使えないと誤解されている方がいるので...
 
@@ -19,15 +19,19 @@ published_at: 2025-02-03 07:00
 
 :::
 
+## はじめに
+
+Next.jsのMiddlewareは、「Edge runtime専用」と誤解してしまうケースも散見されます。実は、Node.js runtime上でも動作するため、この点について解説します!
+
 ## Next.js Middlewareとは？
 
 Next.jsアプリへのリクエストが完了する前にコードを実行できる仕組みです。
 
 送られてきたリクエストに基づいて、
 
-- レスポンスの書き換え
-- リダイレクト
-- リクエストやレスポンスのヘッダーを変更
+- **レスポンスの書き換え**
+- **リダイレクト**
+- **リクエストやレスポンスのヘッダーを変更**
 
 などの処理を加えることができるようになります。
 
@@ -82,19 +86,19 @@ Node.js runtimeが提供するAPIの詳細はこちら。
 
 https://nodejs.org/api/
 
-Node.js runtimeが提供するAPIを使えないということは
+#### 例1: アクセスログのファイル出力
 
-**Middlewareの処理でアクセスログを`fs`を使ってファイルに書き出す**
+Middlewareで `fs` モジュールを使い、ログファイルに直接書き込むような処理は行なえません。
 
-といったことはできません。
+**理由:** `fs` はNode.js専用のAPIで、Next.jsのMiddlewareはサポートしていないため。
 
-また
+#### 例2: Loggerライブラリの利用
 
 **Middlewareの処理でアクセスログをLoggerライブラリ[Pino](https://github.com/pinojs/pino)を使って出力する際はbrowser周りの設定を記載する必要があります。**
 
 詳細：[【Next.js】全てのログをターミナルに出力する方法](https://qiita.com/P-man_Brown/items/0f0e0613fd9bb3e8c99c)
 
-## MiddlewareのNode.js runtimeの対応状況
+## 今後の展望：Node.js runtimeのフルサポートへ
 
 MiddlewareのNode.js runtime対応の要望は多く、以下ディスカッションではNode.js runtimeのフルサポートをするために開発を進める旨が明言されています。
 
@@ -113,7 +117,7 @@ https://github.com/vercel/next.js/discussions/71727
 ## まとめ
 
 - Next.jsのMiddlewareはEdge runtime, Node.js runtimeのどちらでも使えます
-  - ただし、Node.js runtimeのフルサポートではなく、`fs`, `net`, `child_process`, `crypto`などの特定のNode APIは使えません
+  - ただし、Node.js runtimeのフルサポートではなく、`fs`, `net`, `child_process`, `crypto`などの特定のNode APIは利用できません
 - MiddlewareのNode.js runtimeのフルサポートに向けて開発が進められています
   - 早く対応してほしい...!
 
@@ -123,8 +127,10 @@ https://zenn.dev/azoookid/scraps/5c05e850e40849
 
 ---
 
-最後までお読みいただきありがとうございました!
+最後までお読みいただきありがとうございました！  
 
-Xでも技術ネタをポストしているので、よかったらフォローしてもらえると嬉しいです😋
+**日々の技術ネタや最新情報をXでも発信中です。**
+
+フォローしていただけると、最新の情報をいち早くお届けできます😋
 
 → [X@jonghyo\_](https://x.com/jonghyo_)
