@@ -21,7 +21,7 @@ published_at: 2025-02-03 07:00
 
 ## はじめに
 
-Next.jsのMiddlewareは、リクエストがアプリに到達する前に任意の処理を実行できる強力な仕組みです。しかし、「Edge runtime専用」と誤解してしまうケースも散見されます。実は、Node.js runtime上でも動作するため、この点を正しく理解しましょう！
+Next.jsのMiddlewareは、「Edge runtime専用」と誤解してしまうケースも散見されます。実は、Node.js runtime上でも動作するため、この点について解説します!
 
 ## Next.js Middlewareとは？
 
@@ -120,7 +120,6 @@ https://github.com/vercel/next.js/discussions/71727
   - ただし、Node.js runtimeのフルサポートではなく、`fs`, `net`, `child_process`, `crypto`などの特定のNode APIは利用できません
 - MiddlewareのNode.js runtimeのフルサポートに向けて開発が進められています
   - 早く対応してほしい...!
-- Interceptorsという新しい仕組みの開発も進められています
 
 ## 参考リンク
 
