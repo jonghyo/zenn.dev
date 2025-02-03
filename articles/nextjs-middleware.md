@@ -96,6 +96,8 @@ Middlewareで `fs` モジュールを使い、ログファイルに直接書き�
 
 **Middlewareの処理でアクセスログをLoggerライブラリ[Pino](https://github.com/pinojs/pino)を使って出力する際はbrowser周りの設定を記載する必要があります。**
 
+https://x.com/jonghyo_/status/1861218246248312939
+
 詳細：[【Next.js】全てのログをターミナルに出力する方法](https://qiita.com/P-man_Brown/items/0f0e0613fd9bb3e8c99c)
 
 ## 今後の展望：Node.js runtimeのフルサポートへ
