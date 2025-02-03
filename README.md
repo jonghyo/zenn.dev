@@ -1,4 +1,4 @@
-# zenn.dev
+# zenn.dev [![build status](https://github.com/jonghyo/zenn.dev/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/jonghyo/zenn.dev/actions/workflows/lint.yml)
 
 My zenn.dev articles is here.
 
