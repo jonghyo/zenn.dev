@@ -18,6 +18,7 @@ rules:
     max-kanji-continuous-len: false
     no-exclamation-question-mark: false
     max-comma: false
+    ja-no-successive-word: false
   spellcheck-tech-word: true
   prh:
     rulePaths:
