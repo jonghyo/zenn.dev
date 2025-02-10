@@ -22,6 +22,8 @@ https://tech.findy.co.jp/entry/2025/02/10/070000#Raycast
 
 ※Freeプランの機能に絞って紹介しています...!
 
+皆さんのおすすめの設定や拡張機能がありましたら、ぜひコメントで教えて下さい🙇
+
 ## TL;DR
 
 - RaycastはAlfred・Clipyの代替として優秀！
