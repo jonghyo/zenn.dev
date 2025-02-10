@@ -211,7 +211,7 @@ https://www.raycast.com/mblode/google-search
 
 デフォルト設定のまま使っています。
 
-#### Image Modification（おすすめ度： ★★★★★☆）
+#### Image Modification（おすすめ度： ★★★★★）
 
 画像の編集ができる拡張機能です。
 
