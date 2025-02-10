@@ -19,6 +19,20 @@ published_at: 2025-02-03 07:00
 
 :::
 
+:::message
+
+2025/2/10 追記
+
+MiddlewareでNode.js runtimeをサポートするためのPRがマージされました。
+
+そのうち、Node.js runtimeのフルサポートが提供されるかと思います。
+
+Add nodejs runtime support for middleware
+
+https://github.com/vercel/next.js/pull/75624
+
+:::
+
 ## はじめに
 
 Next.jsのMiddlewareは、「Edge runtime専用」と誤解してしまうケースも散見されます。実は、Node.js runtime上でも動作するため、この点について解説します!

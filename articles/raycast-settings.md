@@ -26,6 +26,9 @@ https://tech.findy.co.jp/entry/2025/02/10/070000#Raycast
 
 - RaycastはAlfred・Clipyの代替として優秀！
 - [おすすめの拡張機能](#extensions)を参考に、自分だけのランチャー環境を作ろう!
+- Windows版も開発中
+
+https://www.raycast.com/windows
 
 ## こんな人におすすめ！
 
@@ -286,6 +289,10 @@ Alfred, ClipyからRaycastに乗り換えることでかなり快適になりま
 さまざまな拡張機能があり、**かゆいところに手が届くとても体験の良いランチャー**です!
 
 おすすめなので、ぜひ試してみてください!
+
+Windows版も開発中のようなので、興味ある方はWaiting listに登録を!
+
+https://www.raycast.com/windows
 
 ---
 
