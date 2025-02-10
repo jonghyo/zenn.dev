@@ -3,7 +3,8 @@ title: 'Raycastのおすすめ設定:Alfred・Clipyユーザーに試してほ�
 emoji: '🚀'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['raycast', 'mac', '効率化']
-published: false
+published: true
+published_at: 2025-02-12 07:45
 ---
 
 ## はじめに
