@@ -9,6 +9,10 @@ published_at: 2025-02-12 07:45
 
 ## はじめに
 
+Findyさんのテックブログを見て
+
+https://tech.findy.co.jp/entry/2025/02/10/070000#Raycast
+
 ようやく[Raycast](https://www.raycast.com/)の導入に踏み切りました!
 
 - ランチャーアプリ： [Alfred](https://www.alfredapp.com/)
@@ -33,17 +37,19 @@ published_at: 2025-02-12 07:45
 
 ## Raycastとは
 
-Raycastは、Raycast Technologies Ltd.によって開発されたmacOS向けランチャーアプリです。2020年に登場しました。
+Raycastは、Raycast Technologies Ltd.によって開発された**macOS向けランチャーアプリ**です。2020年に登場しました。
 
 - [Spotlight](https://support.apple.com/ja-jp/guide/mac-help/mchlp1008/mac)
 - [Alfred](https://www.alfredapp.com/)
 
 の代替となるツールで
 
-- 高速な動作
-- モダンなUI/UX
+- **高速な動作**
+- **モダンなUI/UX**
 
 を備えた、非常に使いやすいランチャーアプリです。
+
+![Raycast](/images/raycast-settings/raycast.gif)
 
 https://www.raycast.com/
 
@@ -94,7 +100,7 @@ Raycastインストール後、Alfred, ClipyのHotkeyが衝突しないように
 
 以下コマンドでRaycastをインストールします。
 
-```zsh
+```bash
 brew install --cask raycast
 ```
 
@@ -121,9 +127,9 @@ Generalは、以下のように設定しました。
 
 おすすめの拡張機能やその設定を紹介します。
 
-拡張機能は5段階の評価で個人的なおすすめ度とともに紹介しています!
+拡張機能は**5段階の評価で個人的なおすすめ度**とともに紹介しています!
 
-拡張機能のHotKeyをそれぞれ`Record Hotkey`をクリックすれば設定できます。
+拡張機能のHotKeyは、それぞれ`Record Hotkey`をクリックすれば設定できます。
 
 （最初どこから拡張機能のHotkey設定できるかわからず、一瞬悩んだのはここだけの秘密...）
 
@@ -277,7 +283,7 @@ Raycast Proプランなら、Cloud Syncで設定が同期されますがFreeプ�
 
 Alfred, ClipyからRaycastに乗り換えることでかなり快適になりました。
 
-さまざまな拡張機能があり、かゆいところに手が届くとても体験の良いランチャーです!
+さまざまな拡張機能があり、**かゆいところに手が届くとても体験の良いランチャー**です!
 
 おすすめなので、ぜひ試してみてください!
 
