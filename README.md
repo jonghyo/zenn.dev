@@ -7,6 +7,7 @@ My zenn.dev articles is here.
 ## Zenn latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Raycastのおすすめ設定:Alfred・Clipyユーザーに試してほしい!](https://zenn.dev/jonghyo/articles/raycast-settings)
 - [Next.js MiddlewareはNode.js runtimeでも使える！【誤解を解消＆今後の展望】](https://zenn.dev/jonghyo/articles/nextjs-middleware)
 - [Zennの記事をGitHub連携でカッチリ管理するおすすめ設定](https://zenn.dev/jonghyo/articles/zenn-github-repo)
 <!-- BLOG-POST-LIST:END -->
