@@ -30,7 +30,7 @@
     "lefthook": "^1.10.10",
     "markdownlint-cli2": "^0.17.2",
     "prettier": "^3.5.1",
-    "secretlint": "^9.0.0",
+    "secretlint": "^9.2.0",
     "textlint": "^14.4.2",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
