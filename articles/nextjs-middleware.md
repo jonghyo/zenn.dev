@@ -21,15 +21,27 @@ published_at: 2025-02-03 07:00
 
 :::message
 
-2025/2/10 追記
+2025/2/10追記
 
 MiddlewareでNode.js runtimeをサポートするためのPRがマージされました。
 
-そのうち、Node.js runtimeのフルサポートが提供されるかと思います。
+そのうち、Node.js runtimeのフルサポートが提供される見込みです。
 
 Add nodejs runtime support for middleware
 
 https://github.com/vercel/next.js/pull/75624
+
+:::
+
+:::message
+
+2025/2/28追記
+
+2025/2/26にリリースされたNext.js v15.2.0でexperimentalではありますが、Node.js runtimeが正式サポートされました!
+
+> [Node.js Middleware (experimental)](https://nextjs.org/blog/next-15-2#nodejs-middleware-experimental): Experimental support for using the Node.js runtime in Middleware
+
+https://nextjs.org/blog/next-15-2
 
 :::
 
@@ -143,7 +155,7 @@ https://zenn.dev/azoookid/scraps/5c05e850e40849
 
 ---
 
-最後までお読みいただきありがとうございました！  
+最後までお読みいただきありがとうございました！
 
 **日々の技術ネタや最新情報をXでも発信中です。**
 
