@@ -8,6 +8,8 @@ published: false
 
 ## はじめに
 
+フロントエンド開発をするときにおすすめするCI/CDパイプライン構成を紹介します。
+
 ## こんな人におすすめ!
 
 - フロントエンド開発時にコード品質をCI/CDパイプラインで管理したい
@@ -22,11 +24,14 @@ published: false
 
 - アプリケーションフレームワーク： Next.js AppRouter
   - このパイプラインはNext.jsでなくてもJS/TSを使った、一般的なフロントエンド開発に応用可能
+-
 - ランタイム：Node.js v22系以降
 - パッケージ管理ツール： npm
 - ビルド環境： GitHub Actions
+- DevSecOpsやカッチリ目の管理をしたいプロジェクト用
+  - セキュリティ関連のチェックや、OSSライセンスのチェックなども行ないたい
 
-CD(Continuous Deployment, Delivery)部分は、プロジェクトごとに差異が大きいため今回は主にCI（Continuous Integration）部分
+CD(Continuous Deployment, Delivery)部分は、プロジェクトごとに差異が大きいため今回は主にCI（Continuous Integration）部分を紹介。
 
 ## CI/CDパイプラインとは
 
@@ -72,6 +77,8 @@ CI/CDパイプラインは、開発プロセスを自動化することで、コ
 
 環境ごとに手動でデプロイすると設定ミスの可能性があります。CI/CDを利用すると、一貫した環境構築ができるため、予期せぬエラーを減らせます。
 
+### CI/CDパイプラインとDevSecOps
+
 ## Git HooksとCI/CDパイプライン
 
 ![Git Hooks](/images/frontend-cicd-pipeline/git-hooks.png)
@@ -79,6 +86,18 @@ CI/CDパイプラインは、開発プロセスを自動化することで、コ
 画像引用：[Git Hooks](https://www.driftingruby.com/episodes/git-hooks) より
 
 CI/CDパイプライン以外に開発プロジェクトにおいて、バグの早期発見やコーディングルールの遵守などを行なうための仕組みとして[Git Hooks](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA-Git-%E3%83%95%E3%83%83%E3%82%AF)があります。
+
+### Git Hooksとは
+
+特定のGitイベント（コミットやプッシュなど）が発生したときに自動で実行されるスクリプトです。ローカルリポジトリの.git/hooksディレクトリに配置され、例えば以下のような用途で使われます。
+
+- pre-commit：コミット前にコードのフォーマットやLintチェックを実行
+- pre-push：プッシュ前にテストを実行し、失敗したらプッシュを防ぐ
+- commit-msg：コミットメッセージのフォーマットを強制する
+
+カスタマイズが可能で、シェルスクリプトやPython、Node.jsなどで記述できます。
+
+### Git HooksとCI/CDパイプラインの使い分け
 
 それぞれの概要と、私が考える使い分けの方針を示します。
 
@@ -128,3 +147,17 @@ https://github.com/lint-staged/lint-staged
 //TODO
 
 - ジョブ一覧とGit Hooks, CIのどちらで実施すべきかの表。画像がよいか。
+
+### Verify Jobs
+
+#### Lint
+
+#### tsc
+
+#### knip
+
+#### license checker
+
+#### Unit test
+
+#### npm audit
