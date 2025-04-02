@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/jonghyo/zenn.dev#readme",
   "devDependencies": {
-    "@commitlint/cli": "^19.7.1",
+    "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@secretlint/secretlint-rule-preset-recommend": "^9.3.0",
     "lefthook": "^1.11.6",
