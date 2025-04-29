@@ -27,7 +27,7 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@secretlint/secretlint-rule-preset-recommend": "^9.3.1",
-    "lefthook": "^1.11.11",
+    "lefthook": "^1.11.12",
     "markdownlint-cli2": "^0.17.2",
     "prettier": "^3.5.3",
     "secretlint": "^9.3.1",
