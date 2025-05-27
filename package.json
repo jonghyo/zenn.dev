@@ -40,6 +40,6 @@
     "textlint-rule-preset-smarthr": "^1.35.0",
     "textlint-rule-prh": "^6.1.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "zenn-cli": "^0.1.159"
+    "zenn-cli": "^0.1.160"
   }
 }
