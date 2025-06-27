@@ -26,12 +26,12 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@secretlint/secretlint-rule-preset-recommend": "^9.3.4",
-    "lefthook": "^1.11.13",
+    "@secretlint/secretlint-rule-preset-recommend": "^10.1.1",
+    "lefthook": "^1.11.14",
     "markdownlint-cli2": "^0.18.1",
-    "prettier": "^3.5.3",
-    "secretlint": "^9.3.4",
-    "textlint": "^14.8.0",
+    "prettier": "^3.6.1",
+    "secretlint": "^10.1.1",
+    "textlint": "^15.0.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-plugin-mdx": "^1.0.2",
@@ -40,6 +40,6 @@
     "textlint-rule-preset-smarthr": "^1.35.0",
     "textlint-rule-prh": "^6.1.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "zenn-cli": "^0.1.161"
+    "zenn-cli": "^0.1.162"
   }
 }
