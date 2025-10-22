@@ -13,6 +13,8 @@ published_at: 2025-02-03 07:00
 
 **Next.jsのMiddlewareはNode.js runtimeでも使えます!**
 
+2025/8/18にリリースされた、[Next.js v15.5](https://nextjs.org/blog/next-15-5)で正式にStable版としてサポートされました。
+
 :::message alert
 
 ただし、Node.js runtimeのフルサポートではなく、`fs`, `net`, `child_process`, `crypto`などの特定のNode APIは使えません。
@@ -42,6 +44,20 @@ https://github.com/vercel/next.js/pull/75624
 > [Node.js Middleware (experimental)](https://nextjs.org/blog/next-15-2#nodejs-middleware-experimental): Experimental support for using the Node.js runtime in Middleware
 
 https://nextjs.org/blog/next-15-2
+
+:::
+
+:::message
+
+2025/10/22追記
+
+2025/8/18にリリースされたNext.js v15.5.0でmiddlewareのNode.js runtimeサポートがstableになりました!
+
+これで安心して使えます!
+
+> [Node.js Middleware (stable)](https://nextjs.org/blog/next-15-5#nodejs-middleware-stable): Node.js runtime support for middleware is now stable
+
+https://nextjs.org/blog/next-15-5
 
 :::
 
