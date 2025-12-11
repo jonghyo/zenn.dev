@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/jonghyo/zenn.dev#readme",
   "devDependencies": {
-    "@commitlint/cli": "^20.0.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "@secretlint/secretlint-rule-preset-recommend": "^11.2.4",
-    "lefthook": "^1.13.4",
-    "markdownlint-cli2": "^0.18.1",
-    "prettier": "^3.6.2",
-    "secretlint": "^11.2.4",
-    "textlint": "^15.2.2",
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "@secretlint/secretlint-rule-preset-recommend": "^11.2.5",
+    "lefthook": "^2.0.9",
+    "markdownlint-cli2": "^0.20.0",
+    "prettier": "^3.7.4",
+    "secretlint": "^11.2.5",
+    "textlint": "^15.5.0",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-plugin-mdx": "^1.0.2",
@@ -40,6 +40,6 @@
     "textlint-rule-preset-smarthr": "^1.36.1",
     "textlint-rule-prh": "^6.1.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "zenn-cli": "^0.2.3"
+    "zenn-cli": "^0.2.10"
   }
 }
